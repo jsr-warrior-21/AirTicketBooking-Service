@@ -30,7 +30,7 @@ class BookingService {
         if(error.name ='RepositoryError'||(error.name = 'ValidationError')){
             throw error;
         }
-      throw new ServiceError();
+      throw new ServiceError(); 
     }
   }
 }
